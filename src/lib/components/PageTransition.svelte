@@ -1,16 +1,16 @@
 <script lang="ts">
-	import { fade, type FadeParams } from 'svelte/transition'
+	import { fade } from 'svelte/transition'
 
 	/**
 	 * Props.
 	 */
-	export let inParams: FadeParams = {
+	export let inParams = {
 		delay: 100,
-		duration: 50
+		duration: 100
 	}
 
-	export let outParams: FadeParams = {
-		duration: 50
+	export let outParams = {
+		duration: 100
 	}
 </script>
 
